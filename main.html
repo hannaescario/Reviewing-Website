@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Buddy</title>
+
+<link rel="stylesheet" href="./styles/about-us.css"/>
+<link rel="stylesheet" href="./styles/task.css"/>
+<link rel="stylesheet" href="./styles/timer.css"/>
+<link rel="stylesheet" href="main.css"/>
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+<!-- Font Awesome Icon-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav>
+        <label class="logo"><i class="fa-solid fa-book"></i> StudyBuddie</label>
+        <ul>
+            
+            <li><a href="about-us.html"><i class="fa-solid fa-gear"></i> About Us </a></li>
+            <li><a href="login.html"><i class="fa-solid fa-user"></i> Login</a></li>
+        </ul>
+
+        <label id="icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+    
+    
+    
+    <!--Timer-->
+    <div class="container">
+        <div class="section-container">
+            <button id="focus" class="btn btn-timer btn-focus">Focus</button>
+            <button id="shortbreak" class="btn btn-shortbreak">Short Break</button>
+            <button id="longbreak" class="btn btn-longbreak">Long Break</button>
+        </div>
+        <div class="time-btn-container">
+            <span id="time"></span>
+            <div class="btn-container">
+                <button id="btn-start" class="show">Start</button>
+                <button id="btn-pause" class="hide">Pause</button>
+                <button id="btn-reset" class="hide">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br> 
+
+
+    <div class="container2">
+        <input type="text" id="task-input" placeholder="Add a new task...">
+        <button id="add-task-btn">Add Task</button>
+        <ul id="task-list"></ul>
+    </div>
+
+    <!--LOGIN Page-->
+
+
+
+    <!--script -->
+
+    <script src="main.js"></script>
+
+</body>
+</html>
